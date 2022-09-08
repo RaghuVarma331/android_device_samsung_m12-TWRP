@@ -11,7 +11,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/m12
+DEVICE_PATH := device/samsung/f12
 
 # Architecture
 TARGET_ARCH := arm64
@@ -46,7 +46,7 @@ BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image
 BOARD_KERNEL_CMDLINE := androidboot.hardware=exynos850
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --header_version 2 --board SRPTJ12A001
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --header_version 2 --board SRPTJ12B003
 BOARD_KERNEL_IMAGE_NAME := Image
 
 # Platform
@@ -54,8 +54,8 @@ TARGET_BOARD_PLATFORM := exynos850
 TARGET_BOARD_PLATFORM_GPU := mali-g52
 
 # Encryption
-PLATFORM_VERSION := 11
-PLATFORM_SECURITY_PATCH := 2021-03-01
+PLATFORM_VERSION := 12
+PLATFORM_SECURITY_PATCH := 2099-12-31
 
 # Filesystem
 BOARD_HAS_LARGE_FILESYSTEM := true
