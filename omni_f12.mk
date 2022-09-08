@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_f12
+PRODUCT_NAME := omni_f12
 PRODUCT_DEVICE := f12
 PRODUCT_MODEL := SM-F127G
 PRODUCT_BRAND := samsung
